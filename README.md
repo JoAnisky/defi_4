@@ -56,7 +56,9 @@ Fusionner la branche main avec votre branche ‘intégration’
 Afficher les différences entre le fichier d’index et le commit HEAD actuel
 > git status
 Enregistrer les modifications dans le dépôt
-> git push
+> git commit -m "Fusion de la branche integration à la branche main" .
 
 Mettre à jour les références distantes ainsi que les objets associés sur la branche main
+> git push
+
 Supprimer la branche ‘intégration’ en locale et distante
